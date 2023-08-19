@@ -26,16 +26,87 @@ void loop() {
         char x = toupper(msg[i]);
 
         // Translate characters to Morse code and blink LED accordingly
-        switch (x) {
-          case 'A':
+         switch (x) {
+           case 'A':
             blinking_func(".-");
             break;
-          // Cases for other letters...
-          case 'Z':
+             case 'B':
+            blinking_func("-...");
+            break;
+             case 'C':
+            blinking_func("-.-.");
+            break;
+             case 'D':
+            blinking_func("-..");
+            break;
+             case 'E':
+            blinking_func(".");
+            break;
+             case 'F':
+            blinking_func("..-.");
+            break;
+             case 'G':
+            blinking_func("--.");
+            break;
+          case 'H':
+            blinking_func("....");
+            break;
+             case 'I':
+            blinking_func("..");
+            break;
+             case 'J':
+            blinking_func(".---");
+            break;
+             case 'K':
+            blinking_func("-.-");
+            break;
+             case 'L':
+            blinking_func(".-..");
+            break;
+             case 'M':
+            blinking_func("--");
+            break;
+             case 'N':
+            blinking_func("-.");
+            break;
+             case 'O':
+            blinking_func("---");
+            break;
+             case 'P':
+            blinking_func(".--.");
+            break;
+             case 'Q':
+            blinking_func("--.-");
+            break;
+             case 'R':
+            blinking_func(".-.");
+            break;
+             case 'S':
+            blinking_func("...");
+            break;
+             case 'T':
+            blinking_func("-");
+            break;
+             case 'U':
+            blinking_func("..-");
+            break;
+             case 'V':
+            blinking_func("...-");
+            break;
+             case 'W':
+            blinking_func(".--");
+            break;
+             case 'X':
+            blinking_func("-..-");
+            break;
+             case 'Y':
+            blinking_func("-.--");
+            break;
+             case 'Z':
             blinking_func("--..");
             break;
         }
-
+    
         delay(3000); // Space between letters
       }
 
