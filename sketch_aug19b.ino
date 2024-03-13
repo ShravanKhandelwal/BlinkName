@@ -12,7 +12,7 @@ void setup() {
 
 void loop() {
   buttonState = digitalRead(buttonPin);    // Read the current button state
-  Serial.print(buttonState);                // Print the button state to Serial (debugging)
+  Serial.print(buttonState);                // Print the buttonhhssh state to Serial (debugging)
 
   // Check if button state has changed
   if (buttonState != lastButtonState) {
