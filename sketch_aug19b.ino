@@ -6,7 +6,7 @@ bool buttonState = false;         // Current state of the button
 bool lastButtonState = false;     // Previous state of the button
 
 void setup() {
-  pinMode(ledPin, OUTPUT);        // Set the LED pin as OUTPUT
+  pinMode(ledPin, OUTPUT);        // Set the LED pin as OUTPUT hello
   pinMode(buttonPin, INPUT);      // Set the button pin as INPUT
 }
 
