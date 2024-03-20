@@ -3,7 +3,7 @@ const int ledPin = 13;      // LED Pin Number
 const int buttonPin = 4;    // Push Button Pin Number
 
 bool buttonState = false;         // Current state of the button
-bool lastButtonState = false;     // Previous state of the button
+bool lastButtonState = false;     // Previous state of the buttonnnn
 
 void setup() {
   pinMode(ledPin, OUTPUT);        // Set the LED pin as OUTPUT hello
