@@ -16,13 +16,13 @@ pipeline {
                 success {
                     emailext body: "Unit and Integration Tests were successful.",
                             subject: "Unit and Integration Tests",
-                            to: "shravan4841.be22@chitkara.edu.in",
+                            to: "shravan4841.be22@chitkara.edu.in","vansh4857.be22@chitkara.edu.in",
                             attachLog: true
                 }
                 failure {
                     emailext body: "Unit and Integration Tests failed.",
                             subject: "Unit and Integration Tests",
-                            to: "shravan4841.be22@chitkara.edu.in",
+                            to: "shravan4841.be22@chitkara.edu.in","vansh4857.be22@chitkara.edu.in",
                             attachLog: true
                 }
             }
@@ -42,13 +42,13 @@ pipeline {
                 success {
                     emailext body: "Security Scan was successful.",
                             subject: "Security Scan",
-                            to: "shravan4841.be22@chitkara.edu.in",
+                            to: "shravan4841.be22@chitkara.edu.in","vansh4857.be22@chitkara.edu.in",
                             attachLog: true
                 }
                 failure {
                     emailext body: "Security Scan failed.",
                             subject: "Security Scan",
-                            to: "shravan4841.be22@chitkara.edu.in",
+                            to: "shravan4841.be22@chitkara.edu.in","vansh4857.be22@chitkara.edu.in",
                             attachLog: true
                 }
             }
